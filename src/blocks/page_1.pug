@@ -1,0 +1,14 @@
+include head/head
+include content/page_1/content
+include page_1/page_1
+
+doctype html
+html(lang="zxx")
+    head
+        +head("ukr.doors.products", "page_1")
+    body
+        +content
+        
+        script(src ="js/libs.min.js")    
+        script(src ="js/bootstrap.js")    
+        script(src ="js/script_2.js")    
